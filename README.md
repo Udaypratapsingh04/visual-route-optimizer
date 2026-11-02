@@ -1,6 +1,6 @@
-# Visual Route & Transit Optimizer - Week 1 (graph engine)
+# Visual Route & Transit Optimizer
 
-Python 3.10+. No runtime dependencies (only `pytest` for tests).
+Python 3.10+.  Week 1 = graph engine, Week 2 = routing algorithms + REST API.
 
 ## Setup
 ```
@@ -9,20 +9,29 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-## Day-by-day commands
+## Week 1 (data + graph)
 ```
-# Day 2 - data (real OSM data; or the offline sample)
 python scripts/fetch_overpass.py --bbox SOUTH WEST NORTH EAST --out data/network.json
-python scripts/generate_sample_network.py --out data/network.json
+python scripts/generate_sample_network.py --out data/network.json     # offline placeholder
 python scripts/validate_network.py data/network.json --geojson data/network.geojson
-
-# Day 3 - Haversine + loader tests
-pytest tests/test_haversine.py tests/test_loader.py -v
-
-# Day 4 - connectivity (must print RESULT: PASS)
 python scripts/check_connectivity.py data/network.json
-python scripts/check_connectivity.py data/network.json --prune --out data/network.json
-
-# Day 5 - dynamic weights, then the whole suite
-pytest -v
 ```
+
+## Week 2 (algorithms + API)
+```
+pytest -v                                                  # all tests
+python scripts/demo_route.py 0 99 --mode distance          # Dijkstra vs A* for one pair
+python scripts/benchmark.py --pairs 200 --mode distance --out data/benchmark.json
+uvicorn api.main:app --reload --port 8000                  # then open http://127.0.0.1:8000/docs
+```
+
+### API
+| Method | Path | Body |
+|---|---|---|
+| GET | `/api/nodes` | - |
+| GET | `/api/edges` | - |
+| POST | `/api/route` | `{"source":0,"target":99,"algorithm":"both","mode":"distance"}` |
+| POST | `/api/edges/congestion` | `{"source":0,"target":1,"multiplier":2.5,"closed":false}` |
+| POST | `/api/reset` | - |
+
+Docs: `docs/DAY1_DESIGN.md`, `docs/DAY8_ADMISSIBILITY.md`.
