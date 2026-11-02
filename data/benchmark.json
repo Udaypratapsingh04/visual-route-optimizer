@@ -1,0 +1,1814 @@
+{
+ "summary": {
+  "mode": "distance",
+  "pairs_tested": 200,
+  "optimality_mismatches": 0,
+  "mean_nodes_dijkstra": 51.8,
+  "mean_nodes_astar": 15.5,
+  "mean_nodes_saved_pct": 69.2,
+  "median_nodes_saved_pct": 71.7,
+  "pairs_in_40_70_band_pct": 39.0
+ },
+ "pairs": [
+  {
+   "source": 41,
+   "target": 19,
+   "dijkstra_nodes": 97,
+   "astar_nodes": 33,
+   "nodes_saved_pct": 66.0,
+   "dijkstra_us": 431.7,
+   "astar_us": 222.3
+  },
+  {
+   "source": 50,
+   "target": 83,
+   "dijkstra_nodes": 37,
+   "astar_nodes": 10,
+   "nodes_saved_pct": 73.0,
+   "dijkstra_us": 104.9,
+   "astar_us": 56.6
+  },
+  {
+   "source": 6,
+   "target": 9,
+   "dijkstra_nodes": 31,
+   "astar_nodes": 8,
+   "nodes_saved_pct": 74.2,
+   "dijkstra_us": 126.5,
+   "astar_us": 42.6
+  },
+  {
+   "source": 68,
+   "target": 12,
+   "dijkstra_nodes": 83,
+   "astar_nodes": 24,
+   "nodes_saved_pct": 71.1,
+   "dijkstra_us": 211.5,
+   "astar_us": 163.5
+  },
+  {
+   "source": 46,
+   "target": 74,
+   "dijkstra_nodes": 40,
+   "astar_nodes": 7,
+   "nodes_saved_pct": 82.5,
+   "dijkstra_us": 115.6,
+   "astar_us": 55.4
+  },
+  {
+   "source": 7,
+   "target": 64,
+   "dijkstra_nodes": 60,
+   "astar_nodes": 17,
+   "nodes_saved_pct": 71.7,
+   "dijkstra_us": 147.5,
+   "astar_us": 89.6
+  },
+  {
+   "source": 27,
+   "target": 4,
+   "dijkstra_nodes": 52,
+   "astar_nodes": 14,
+   "nodes_saved_pct": 73.1,
+   "dijkstra_us": 136.5,
+   "astar_us": 74.8
+  },
+  {
+   "source": 11,
+   "target": 55,
+   "dijkstra_nodes": 68,
+   "astar_nodes": 35,
+   "nodes_saved_pct": 48.5,
+   "dijkstra_us": 179.9,
+   "astar_us": 163.3
+  },
+  {
+   "source": 53,
+   "target": 8,
+   "dijkstra_nodes": 99,
+   "astar_nodes": 31,
+   "nodes_saved_pct": 68.7,
+   "dijkstra_us": 285.3,
+   "astar_us": 151.7
+  },
+  {
+   "source": 30,
+   "target": 11,
+   "dijkstra_nodes": 13,
+   "astar_nodes": 4,
+   "nodes_saved_pct": 69.2,
+   "dijkstra_us": 31.4,
+   "astar_us": 31.2
+  },
+  {
+   "source": 70,
+   "target": 54,
+   "dijkstra_nodes": 34,
+   "astar_nodes": 11,
+   "nodes_saved_pct": 67.6,
+   "dijkstra_us": 81.6,
+   "astar_us": 54.0
+  },
+  {
+   "source": 7,
+   "target": 72,
+   "dijkstra_nodes": 87,
+   "astar_nodes": 38,
+   "nodes_saved_pct": 56.3,
+   "dijkstra_us": 235.9,
+   "astar_us": 161.9
+  },
+  {
+   "source": 15,
+   "target": 28,
+   "dijkstra_nodes": 19,
+   "astar_nodes": 5,
+   "nodes_saved_pct": 73.7,
+   "dijkstra_us": 55.0,
+   "astar_us": 27.8
+  },
+  {
+   "source": 80,
+   "target": 74,
+   "dijkstra_nodes": 22,
+   "astar_nodes": 9,
+   "nodes_saved_pct": 59.1,
+   "dijkstra_us": 51.1,
+   "astar_us": 45.0
+  },
+  {
+   "source": 7,
+   "target": 73,
+   "dijkstra_nodes": 77,
+   "astar_nodes": 26,
+   "nodes_saved_pct": 66.2,
+   "dijkstra_us": 169.4,
+   "astar_us": 146.3
+  },
+  {
+   "source": 74,
+   "target": 50,
+   "dijkstra_nodes": 58,
+   "astar_nodes": 12,
+   "nodes_saved_pct": 79.3,
+   "dijkstra_us": 151.1,
+   "astar_us": 129.0
+  },
+  {
+   "source": 6,
+   "target": 28,
+   "dijkstra_nodes": 17,
+   "astar_nodes": 6,
+   "nodes_saved_pct": 64.7,
+   "dijkstra_us": 52.5,
+   "astar_us": 30.7
+  },
+  {
+   "source": 5,
+   "target": 71,
+   "dijkstra_nodes": 86,
+   "astar_nodes": 33,
+   "nodes_saved_pct": 61.6,
+   "dijkstra_us": 200.3,
+   "astar_us": 176.6
+  },
+  {
+   "source": 17,
+   "target": 37,
+   "dijkstra_nodes": 19,
+   "astar_nodes": 4,
+   "nodes_saved_pct": 78.9,
+   "dijkstra_us": 60.7,
+   "astar_us": 38.0
+  },
+  {
+   "source": 53,
+   "target": 18,
+   "dijkstra_nodes": 96,
+   "astar_nodes": 26,
+   "nodes_saved_pct": 72.9,
+   "dijkstra_us": 319.0,
+   "astar_us": 126.6
+  },
+  {
+   "source": 69,
+   "target": 15,
+   "dijkstra_nodes": 59,
+   "astar_nodes": 16,
+   "nodes_saved_pct": 72.9,
+   "dijkstra_us": 133.5,
+   "astar_us": 73.7
+  },
+  {
+   "source": 73,
+   "target": 39,
+   "dijkstra_nodes": 87,
+   "astar_nodes": 25,
+   "nodes_saved_pct": 71.3,
+   "dijkstra_us": 222.3,
+   "astar_us": 129.7
+  },
+  {
+   "source": 71,
+   "target": 87,
+   "dijkstra_nodes": 51,
+   "astar_nodes": 11,
+   "nodes_saved_pct": 78.4,
+   "dijkstra_us": 146.7,
+   "astar_us": 74.1
+  },
+  {
+   "source": 23,
+   "target": 13,
+   "dijkstra_nodes": 3,
+   "astar_nodes": 2,
+   "nodes_saved_pct": 33.3,
+   "dijkstra_us": 10.3,
+   "astar_us": 12.9
+  },
+  {
+   "source": 74,
+   "target": 73,
+   "dijkstra_nodes": 3,
+   "astar_nodes": 2,
+   "nodes_saved_pct": 33.3,
+   "dijkstra_us": 11.7,
+   "astar_us": 25.3
+  },
+  {
+   "source": 81,
+   "target": 24,
+   "dijkstra_nodes": 64,
+   "astar_nodes": 22,
+   "nodes_saved_pct": 65.6,
+   "dijkstra_us": 156.6,
+   "astar_us": 104.5
+  },
+  {
+   "source": 47,
+   "target": 12,
+   "dijkstra_nodes": 74,
+   "astar_nodes": 16,
+   "nodes_saved_pct": 78.4,
+   "dijkstra_us": 187.1,
+   "astar_us": 93.1
+  },
+  {
+   "source": 70,
+   "target": 91,
+   "dijkstra_nodes": 15,
+   "astar_nodes": 5,
+   "nodes_saved_pct": 66.7,
+   "dijkstra_us": 48.6,
+   "astar_us": 25.9
+  },
+  {
+   "source": 8,
+   "target": 72,
+   "dijkstra_nodes": 87,
+   "astar_nodes": 40,
+   "nodes_saved_pct": 54.0,
+   "dijkstra_us": 263.4,
+   "astar_us": 247.0
+  },
+  {
+   "source": 7,
+   "target": 79,
+   "dijkstra_nodes": 61,
+   "astar_nodes": 14,
+   "nodes_saved_pct": 77.0,
+   "dijkstra_us": 146.2,
+   "astar_us": 105.7
+  },
+  {
+   "source": 26,
+   "target": 63,
+   "dijkstra_nodes": 65,
+   "astar_nodes": 19,
+   "nodes_saved_pct": 70.8,
+   "dijkstra_us": 179.6,
+   "astar_us": 101.3
+  },
+  {
+   "source": 87,
+   "target": 68,
+   "dijkstra_nodes": 25,
+   "astar_nodes": 8,
+   "nodes_saved_pct": 68.0,
+   "dijkstra_us": 73.5,
+   "astar_us": 52.5
+  },
+  {
+   "source": 54,
+   "target": 99,
+   "dijkstra_nodes": 96,
+   "astar_nodes": 18,
+   "nodes_saved_pct": 81.2,
+   "dijkstra_us": 275.6,
+   "astar_us": 91.9
+  },
+  {
+   "source": 40,
+   "target": 59,
+   "dijkstra_nodes": 89,
+   "astar_nodes": 24,
+   "nodes_saved_pct": 73.0,
+   "dijkstra_us": 247.1,
+   "astar_us": 144.8
+  },
+  {
+   "source": 74,
+   "target": 58,
+   "dijkstra_nodes": 60,
+   "astar_nodes": 13,
+   "nodes_saved_pct": 78.3,
+   "dijkstra_us": 177.4,
+   "astar_us": 77.3
+  },
+  {
+   "source": 46,
+   "target": 38,
+   "dijkstra_nodes": 16,
+   "astar_nodes": 4,
+   "nodes_saved_pct": 75.0,
+   "dijkstra_us": 54.7,
+   "astar_us": 77.8
+  },
+  {
+   "source": 31,
+   "target": 23,
+   "dijkstra_nodes": 18,
+   "astar_nodes": 6,
+   "nodes_saved_pct": 66.7,
+   "dijkstra_us": 76.3,
+   "astar_us": 36.9
+  },
+  {
+   "source": 89,
+   "target": 99,
+   "dijkstra_nodes": 12,
+   "astar_nodes": 5,
+   "nodes_saved_pct": 58.3,
+   "dijkstra_us": 33.1,
+   "astar_us": 26.8
+  },
+  {
+   "source": 31,
+   "target": 10,
+   "dijkstra_nodes": 17,
+   "astar_nodes": 4,
+   "nodes_saved_pct": 76.5,
+   "dijkstra_us": 45.9,
+   "astar_us": 26.8
+  },
+  {
+   "source": 73,
+   "target": 38,
+   "dijkstra_nodes": 78,
+   "astar_nodes": 20,
+   "nodes_saved_pct": 74.4,
+   "dijkstra_us": 243.5,
+   "astar_us": 161.7
+  },
+  {
+   "source": 67,
+   "target": 63,
+   "dijkstra_nodes": 35,
+   "astar_nodes": 5,
+   "nodes_saved_pct": 85.7,
+   "dijkstra_us": 124.4,
+   "astar_us": 41.5
+  },
+  {
+   "source": 43,
+   "target": 93,
+   "dijkstra_nodes": 80,
+   "astar_nodes": 13,
+   "nodes_saved_pct": 83.8,
+   "dijkstra_us": 301.7,
+   "astar_us": 75.0
+  },
+  {
+   "source": 57,
+   "target": 36,
+   "dijkstra_nodes": 17,
+   "astar_nodes": 4,
+   "nodes_saved_pct": 76.5,
+   "dijkstra_us": 61.5,
+   "astar_us": 28.2
+  },
+  {
+   "source": 77,
+   "target": 9,
+   "dijkstra_nodes": 85,
+   "astar_nodes": 21,
+   "nodes_saved_pct": 75.3,
+   "dijkstra_us": 200.5,
+   "astar_us": 127.9
+  },
+  {
+   "source": 15,
+   "target": 65,
+   "dijkstra_nodes": 61,
+   "astar_nodes": 13,
+   "nodes_saved_pct": 78.7,
+   "dijkstra_us": 193.0,
+   "astar_us": 100.7
+  },
+  {
+   "source": 53,
+   "target": 21,
+   "dijkstra_nodes": 39,
+   "astar_nodes": 6,
+   "nodes_saved_pct": 84.6,
+   "dijkstra_us": 125.7,
+   "astar_us": 40.1
+  },
+  {
+   "source": 96,
+   "target": 43,
+   "dijkstra_nodes": 57,
+   "astar_nodes": 22,
+   "nodes_saved_pct": 61.4,
+   "dijkstra_us": 151.3,
+   "astar_us": 97.3
+  },
+  {
+   "source": 19,
+   "target": 62,
+   "dijkstra_nodes": 82,
+   "astar_nodes": 40,
+   "nodes_saved_pct": 51.2,
+   "dijkstra_us": 240.1,
+   "astar_us": 171.3
+  },
+  {
+   "source": 53,
+   "target": 5,
+   "dijkstra_nodes": 80,
+   "astar_nodes": 12,
+   "nodes_saved_pct": 85.0,
+   "dijkstra_us": 211.1,
+   "astar_us": 78.2
+  },
+  {
+   "source": 85,
+   "target": 9,
+   "dijkstra_nodes": 98,
+   "astar_nodes": 40,
+   "nodes_saved_pct": 59.2,
+   "dijkstra_us": 296.3,
+   "astar_us": 277.2
+  },
+  {
+   "source": 97,
+   "target": 71,
+   "dijkstra_nodes": 51,
+   "astar_nodes": 15,
+   "nodes_saved_pct": 70.6,
+   "dijkstra_us": 193.8,
+   "astar_us": 83.3
+  },
+  {
+   "source": 73,
+   "target": 40,
+   "dijkstra_nodes": 50,
+   "astar_nodes": 11,
+   "nodes_saved_pct": 78.0,
+   "dijkstra_us": 179.5,
+   "astar_us": 58.6
+  },
+  {
+   "source": 43,
+   "target": 88,
+   "dijkstra_nodes": 91,
+   "astar_nodes": 13,
+   "nodes_saved_pct": 85.7,
+   "dijkstra_us": 264.0,
+   "astar_us": 80.0
+  },
+  {
+   "source": 44,
+   "target": 76,
+   "dijkstra_nodes": 42,
+   "astar_nodes": 7,
+   "nodes_saved_pct": 83.3,
+   "dijkstra_us": 123.2,
+   "astar_us": 54.5
+  },
+  {
+   "source": 63,
+   "target": 74,
+   "dijkstra_nodes": 7,
+   "astar_nodes": 3,
+   "nodes_saved_pct": 57.1,
+   "dijkstra_us": 23.0,
+   "astar_us": 32.5
+  },
+  {
+   "source": 58,
+   "target": 8,
+   "dijkstra_nodes": 37,
+   "astar_nodes": 6,
+   "nodes_saved_pct": 83.8,
+   "dijkstra_us": 127.4,
+   "astar_us": 43.2
+  },
+  {
+   "source": 11,
+   "target": 34,
+   "dijkstra_nodes": 25,
+   "astar_nodes": 8,
+   "nodes_saved_pct": 68.0,
+   "dijkstra_us": 60.6,
+   "astar_us": 55.1
+  },
+  {
+   "source": 60,
+   "target": 89,
+   "dijkstra_nodes": 82,
+   "astar_nodes": 17,
+   "nodes_saved_pct": 79.3,
+   "dijkstra_us": 227.1,
+   "astar_us": 96.8
+  },
+  {
+   "source": 85,
+   "target": 8,
+   "dijkstra_nodes": 96,
+   "astar_nodes": 27,
+   "nodes_saved_pct": 71.9,
+   "dijkstra_us": 257.4,
+   "astar_us": 154.6
+  },
+  {
+   "source": 7,
+   "target": 93,
+   "dijkstra_nodes": 92,
+   "astar_nodes": 38,
+   "nodes_saved_pct": 58.7,
+   "dijkstra_us": 246.7,
+   "astar_us": 192.4
+  },
+  {
+   "source": 89,
+   "target": 39,
+   "dijkstra_nodes": 39,
+   "astar_nodes": 9,
+   "nodes_saved_pct": 76.9,
+   "dijkstra_us": 107.6,
+   "astar_us": 47.2
+  },
+  {
+   "source": 82,
+   "target": 73,
+   "dijkstra_nodes": 9,
+   "astar_nodes": 3,
+   "nodes_saved_pct": 66.7,
+   "dijkstra_us": 26.8,
+   "astar_us": 58.8
+  },
+  {
+   "source": 87,
+   "target": 57,
+   "dijkstra_nodes": 24,
+   "astar_nodes": 6,
+   "nodes_saved_pct": 75.0,
+   "dijkstra_us": 66.6,
+   "astar_us": 37.1
+  },
+  {
+   "source": 36,
+   "target": 91,
+   "dijkstra_nodes": 99,
+   "astar_nodes": 35,
+   "nodes_saved_pct": 64.6,
+   "dijkstra_us": 325.6,
+   "astar_us": 163.8
+  },
+  {
+   "source": 49,
+   "target": 85,
+   "dijkstra_nodes": 59,
+   "astar_nodes": 16,
+   "nodes_saved_pct": 72.9,
+   "dijkstra_us": 145.5,
+   "astar_us": 82.5
+  },
+  {
+   "source": 44,
+   "target": 2,
+   "dijkstra_nodes": 56,
+   "astar_nodes": 10,
+   "nodes_saved_pct": 82.1,
+   "dijkstra_us": 152.3,
+   "astar_us": 85.5
+  },
+  {
+   "source": 59,
+   "target": 45,
+   "dijkstra_nodes": 21,
+   "astar_nodes": 6,
+   "nodes_saved_pct": 71.4,
+   "dijkstra_us": 65.9,
+   "astar_us": 36.1
+  },
+  {
+   "source": 21,
+   "target": 78,
+   "dijkstra_nodes": 93,
+   "astar_nodes": 40,
+   "nodes_saved_pct": 57.0,
+   "dijkstra_us": 351.6,
+   "astar_us": 256.8
+  },
+  {
+   "source": 14,
+   "target": 63,
+   "dijkstra_nodes": 49,
+   "astar_nodes": 10,
+   "nodes_saved_pct": 79.6,
+   "dijkstra_us": 159.0,
+   "astar_us": 62.9
+  },
+  {
+   "source": 7,
+   "target": 27,
+   "dijkstra_nodes": 15,
+   "astar_nodes": 8,
+   "nodes_saved_pct": 46.7,
+   "dijkstra_us": 46.0,
+   "astar_us": 45.7
+  },
+  {
+   "source": 98,
+   "target": 36,
+   "dijkstra_nodes": 45,
+   "astar_nodes": 13,
+   "nodes_saved_pct": 71.1,
+   "dijkstra_us": 112.8,
+   "astar_us": 75.5
+  },
+  {
+   "source": 16,
+   "target": 94,
+   "dijkstra_nodes": 88,
+   "astar_nodes": 23,
+   "nodes_saved_pct": 73.9,
+   "dijkstra_us": 220.9,
+   "astar_us": 181.0
+  },
+  {
+   "source": 31,
+   "target": 50,
+   "dijkstra_nodes": 13,
+   "astar_nodes": 5,
+   "nodes_saved_pct": 61.5,
+   "dijkstra_us": 35.3,
+   "astar_us": 27.6
+  },
+  {
+   "source": 50,
+   "target": 63,
+   "dijkstra_nodes": 22,
+   "astar_nodes": 5,
+   "nodes_saved_pct": 77.3,
+   "dijkstra_us": 55.6,
+   "astar_us": 39.0
+  },
+  {
+   "source": 10,
+   "target": 21,
+   "dijkstra_nodes": 5,
+   "astar_nodes": 3,
+   "nodes_saved_pct": 40.0,
+   "dijkstra_us": 13.2,
+   "astar_us": 17.8
+  },
+  {
+   "source": 57,
+   "target": 51,
+   "dijkstra_nodes": 88,
+   "astar_nodes": 33,
+   "nodes_saved_pct": 62.5,
+   "dijkstra_us": 215.6,
+   "astar_us": 154.5
+  },
+  {
+   "source": 70,
+   "target": 35,
+   "dijkstra_nodes": 69,
+   "astar_nodes": 28,
+   "nodes_saved_pct": 59.4,
+   "dijkstra_us": 164.1,
+   "astar_us": 114.7
+  },
+  {
+   "source": 17,
+   "target": 55,
+   "dijkstra_nodes": 42,
+   "astar_nodes": 7,
+   "nodes_saved_pct": 83.3,
+   "dijkstra_us": 93.5,
+   "astar_us": 41.7
+  },
+  {
+   "source": 70,
+   "target": 35,
+   "dijkstra_nodes": 69,
+   "astar_nodes": 28,
+   "nodes_saved_pct": 59.4,
+   "dijkstra_us": 176.2,
+   "astar_us": 111.8
+  },
+  {
+   "source": 90,
+   "target": 53,
+   "dijkstra_nodes": 28,
+   "astar_nodes": 12,
+   "nodes_saved_pct": 57.1,
+   "dijkstra_us": 62.5,
+   "astar_us": 69.2
+  },
+  {
+   "source": 45,
+   "target": 87,
+   "dijkstra_nodes": 58,
+   "astar_nodes": 7,
+   "nodes_saved_pct": 87.9,
+   "dijkstra_us": 145.5,
+   "astar_us": 45.5
+  },
+  {
+   "source": 48,
+   "target": 29,
+   "dijkstra_nodes": 19,
+   "astar_nodes": 4,
+   "nodes_saved_pct": 78.9,
+   "dijkstra_us": 48.7,
+   "astar_us": 23.4
+  },
+  {
+   "source": 19,
+   "target": 10,
+   "dijkstra_nodes": 75,
+   "astar_nodes": 25,
+   "nodes_saved_pct": 66.7,
+   "dijkstra_us": 210.5,
+   "astar_us": 104.8
+  },
+  {
+   "source": 22,
+   "target": 19,
+   "dijkstra_nodes": 65,
+   "astar_nodes": 12,
+   "nodes_saved_pct": 81.5,
+   "dijkstra_us": 156.1,
+   "astar_us": 63.1
+  },
+  {
+   "source": 29,
+   "target": 84,
+   "dijkstra_nodes": 75,
+   "astar_nodes": 28,
+   "nodes_saved_pct": 62.7,
+   "dijkstra_us": 171.4,
+   "astar_us": 116.5
+  },
+  {
+   "source": 29,
+   "target": 1,
+   "dijkstra_nodes": 71,
+   "astar_nodes": 15,
+   "nodes_saved_pct": 78.9,
+   "dijkstra_us": 165.3,
+   "astar_us": 70.4
+  },
+  {
+   "source": 62,
+   "target": 75,
+   "dijkstra_nodes": 20,
+   "astar_nodes": 4,
+   "nodes_saved_pct": 80.0,
+   "dijkstra_us": 52.1,
+   "astar_us": 34.4
+  },
+  {
+   "source": 23,
+   "target": 33,
+   "dijkstra_nodes": 16,
+   "astar_nodes": 5,
+   "nodes_saved_pct": 68.8,
+   "dijkstra_us": 42.0,
+   "astar_us": 30.3
+  },
+  {
+   "source": 36,
+   "target": 0,
+   "dijkstra_nodes": 91,
+   "astar_nodes": 23,
+   "nodes_saved_pct": 74.7,
+   "dijkstra_us": 220.1,
+   "astar_us": 102.0
+  },
+  {
+   "source": 18,
+   "target": 53,
+   "dijkstra_nodes": 62,
+   "astar_nodes": 29,
+   "nodes_saved_pct": 53.2,
+   "dijkstra_us": 263.5,
+   "astar_us": 129.3
+  },
+  {
+   "source": 68,
+   "target": 47,
+   "dijkstra_nodes": 12,
+   "astar_nodes": 4,
+   "nodes_saved_pct": 66.7,
+   "dijkstra_us": 29.9,
+   "astar_us": 37.1
+  },
+  {
+   "source": 78,
+   "target": 72,
+   "dijkstra_nodes": 48,
+   "astar_nodes": 7,
+   "nodes_saved_pct": 85.4,
+   "dijkstra_us": 128.1,
+   "astar_us": 59.5
+  },
+  {
+   "source": 40,
+   "target": 16,
+   "dijkstra_nodes": 67,
+   "astar_nodes": 19,
+   "nodes_saved_pct": 71.6,
+   "dijkstra_us": 233.9,
+   "astar_us": 98.7
+  },
+  {
+   "source": 88,
+   "target": 65,
+   "dijkstra_nodes": 25,
+   "astar_nodes": 7,
+   "nodes_saved_pct": 72.0,
+   "dijkstra_us": 64.8,
+   "astar_us": 42.1
+  },
+  {
+   "source": 79,
+   "target": 83,
+   "dijkstra_nodes": 45,
+   "astar_nodes": 8,
+   "nodes_saved_pct": 82.2,
+   "dijkstra_us": 113.7,
+   "astar_us": 53.7
+  },
+  {
+   "source": 86,
+   "target": 94,
+   "dijkstra_nodes": 14,
+   "astar_nodes": 4,
+   "nodes_saved_pct": 71.4,
+   "dijkstra_us": 44.8,
+   "astar_us": 29.9
+  },
+  {
+   "source": 6,
+   "target": 58,
+   "dijkstra_nodes": 42,
+   "astar_nodes": 10,
+   "nodes_saved_pct": 76.2,
+   "dijkstra_us": 207.7,
+   "astar_us": 109.5
+  },
+  {
+   "source": 99,
+   "target": 87,
+   "dijkstra_nodes": 9,
+   "astar_nodes": 6,
+   "nodes_saved_pct": 33.3,
+   "dijkstra_us": 65.8,
+   "astar_us": 38.6
+  },
+  {
+   "source": 71,
+   "target": 50,
+   "dijkstra_nodes": 17,
+   "astar_nodes": 4,
+   "nodes_saved_pct": 76.5,
+   "dijkstra_us": 75.6,
+   "astar_us": 35.6
+  },
+  {
+   "source": 50,
+   "target": 51,
+   "dijkstra_nodes": 3,
+   "astar_nodes": 2,
+   "nodes_saved_pct": 33.3,
+   "dijkstra_us": 12.1,
+   "astar_us": 18.4
+  },
+  {
+   "source": 50,
+   "target": 13,
+   "dijkstra_nodes": 45,
+   "astar_nodes": 13,
+   "nodes_saved_pct": 71.1,
+   "dijkstra_us": 186.0,
+   "astar_us": 100.2
+  },
+  {
+   "source": 61,
+   "target": 81,
+   "dijkstra_nodes": 6,
+   "astar_nodes": 3,
+   "nodes_saved_pct": 50.0,
+   "dijkstra_us": 32.4,
+   "astar_us": 32.5
+  },
+  {
+   "source": 51,
+   "target": 7,
+   "dijkstra_nodes": 94,
+   "astar_nodes": 34,
+   "nodes_saved_pct": 63.8,
+   "dijkstra_us": 472.4,
+   "astar_us": 265.9
+  },
+  {
+   "source": 24,
+   "target": 8,
+   "dijkstra_nodes": 61,
+   "astar_nodes": 11,
+   "nodes_saved_pct": 82.0,
+   "dijkstra_us": 291.1,
+   "astar_us": 103.1
+  },
+  {
+   "source": 26,
+   "target": 56,
+   "dijkstra_nodes": 21,
+   "astar_nodes": 4,
+   "nodes_saved_pct": 81.0,
+   "dijkstra_us": 107.2,
+   "astar_us": 42.3
+  },
+  {
+   "source": 20,
+   "target": 14,
+   "dijkstra_nodes": 25,
+   "astar_nodes": 7,
+   "nodes_saved_pct": 72.0,
+   "dijkstra_us": 117.2,
+   "astar_us": 76.2
+  },
+  {
+   "source": 43,
+   "target": 76,
+   "dijkstra_nodes": 51,
+   "astar_nodes": 8,
+   "nodes_saved_pct": 84.3,
+   "dijkstra_us": 234.1,
+   "astar_us": 59.2
+  },
+  {
+   "source": 6,
+   "target": 13,
+   "dijkstra_nodes": 15,
+   "astar_nodes": 5,
+   "nodes_saved_pct": 66.7,
+   "dijkstra_us": 69.6,
+   "astar_us": 67.1
+  },
+  {
+   "source": 0,
+   "target": 72,
+   "dijkstra_nodes": 45,
+   "astar_nodes": 16,
+   "nodes_saved_pct": 64.4,
+   "dijkstra_us": 171.0,
+   "astar_us": 140.4
+  },
+  {
+   "source": 19,
+   "target": 68,
+   "dijkstra_nodes": 26,
+   "astar_nodes": 9,
+   "nodes_saved_pct": 65.4,
+   "dijkstra_us": 59.9,
+   "astar_us": 52.6
+  },
+  {
+   "source": 12,
+   "target": 46,
+   "dijkstra_nodes": 45,
+   "astar_nodes": 12,
+   "nodes_saved_pct": 73.3,
+   "dijkstra_us": 116.6,
+   "astar_us": 58.3
+  },
+  {
+   "source": 78,
+   "target": 3,
+   "dijkstra_nodes": 94,
+   "astar_nodes": 40,
+   "nodes_saved_pct": 57.4,
+   "dijkstra_us": 213.8,
+   "astar_us": 196.2
+  },
+  {
+   "source": 9,
+   "target": 26,
+   "dijkstra_nodes": 15,
+   "astar_nodes": 10,
+   "nodes_saved_pct": 33.3,
+   "dijkstra_us": 33.8,
+   "astar_us": 42.1
+  },
+  {
+   "source": 78,
+   "target": 48,
+   "dijkstra_nodes": 11,
+   "astar_nodes": 4,
+   "nodes_saved_pct": 63.6,
+   "dijkstra_us": 49.4,
+   "astar_us": 27.3
+  },
+  {
+   "source": 19,
+   "target": 81,
+   "dijkstra_nodes": 94,
+   "astar_nodes": 58,
+   "nodes_saved_pct": 38.3,
+   "dijkstra_us": 252.0,
+   "astar_us": 243.7
+  },
+  {
+   "source": 32,
+   "target": 44,
+   "dijkstra_nodes": 12,
+   "astar_nodes": 5,
+   "nodes_saved_pct": 58.3,
+   "dijkstra_us": 31.0,
+   "astar_us": 21.8
+  },
+  {
+   "source": 77,
+   "target": 46,
+   "dijkstra_nodes": 28,
+   "astar_nodes": 7,
+   "nodes_saved_pct": 75.0,
+   "dijkstra_us": 76.6,
+   "astar_us": 40.5
+  },
+  {
+   "source": 60,
+   "target": 15,
+   "dijkstra_nodes": 79,
+   "astar_nodes": 30,
+   "nodes_saved_pct": 62.0,
+   "dijkstra_us": 187.7,
+   "astar_us": 157.5
+  },
+  {
+   "source": 14,
+   "target": 62,
+   "dijkstra_nodes": 51,
+   "astar_nodes": 12,
+   "nodes_saved_pct": 76.5,
+   "dijkstra_us": 185.2,
+   "astar_us": 62.9
+  },
+  {
+   "source": 59,
+   "target": 61,
+   "dijkstra_nodes": 85,
+   "astar_nodes": 38,
+   "nodes_saved_pct": 55.3,
+   "dijkstra_us": 226.0,
+   "astar_us": 196.2
+  },
+  {
+   "source": 61,
+   "target": 39,
+   "dijkstra_nodes": 91,
+   "astar_nodes": 32,
+   "nodes_saved_pct": 64.8,
+   "dijkstra_us": 261.1,
+   "astar_us": 179.1
+  },
+  {
+   "source": 10,
+   "target": 18,
+   "dijkstra_nodes": 64,
+   "astar_nodes": 24,
+   "nodes_saved_pct": 62.5,
+   "dijkstra_us": 219.8,
+   "astar_us": 111.1
+  },
+  {
+   "source": 13,
+   "target": 95,
+   "dijkstra_nodes": 82,
+   "astar_nodes": 14,
+   "nodes_saved_pct": 82.9,
+   "dijkstra_us": 206.3,
+   "astar_us": 94.1
+  },
+  {
+   "source": 43,
+   "target": 94,
+   "dijkstra_nodes": 64,
+   "astar_nodes": 7,
+   "nodes_saved_pct": 89.1,
+   "dijkstra_us": 186.6,
+   "astar_us": 50.1
+  },
+  {
+   "source": 33,
+   "target": 61,
+   "dijkstra_nodes": 31,
+   "astar_nodes": 10,
+   "nodes_saved_pct": 67.7,
+   "dijkstra_us": 84.5,
+   "astar_us": 93.3
+  },
+  {
+   "source": 88,
+   "target": 20,
+   "dijkstra_nodes": 96,
+   "astar_nodes": 45,
+   "nodes_saved_pct": 53.1,
+   "dijkstra_us": 240.4,
+   "astar_us": 277.2
+  },
+  {
+   "source": 66,
+   "target": 2,
+   "dijkstra_nodes": 95,
+   "astar_nodes": 30,
+   "nodes_saved_pct": 68.4,
+   "dijkstra_us": 261.7,
+   "astar_us": 170.8
+  },
+  {
+   "source": 26,
+   "target": 67,
+   "dijkstra_nodes": 36,
+   "astar_nodes": 6,
+   "nodes_saved_pct": 83.3,
+   "dijkstra_us": 103.1,
+   "astar_us": 40.6
+  },
+  {
+   "source": 46,
+   "target": 18,
+   "dijkstra_nodes": 44,
+   "astar_nodes": 8,
+   "nodes_saved_pct": 81.8,
+   "dijkstra_us": 816.0,
+   "astar_us": 69.8
+  },
+  {
+   "source": 88,
+   "target": 69,
+   "dijkstra_nodes": 21,
+   "astar_nodes": 10,
+   "nodes_saved_pct": 52.4,
+   "dijkstra_us": 60.6,
+   "astar_us": 67.0
+  },
+  {
+   "source": 3,
+   "target": 97,
+   "dijkstra_nodes": 97,
+   "astar_nodes": 29,
+   "nodes_saved_pct": 70.1,
+   "dijkstra_us": 307.9,
+   "astar_us": 202.8
+  },
+  {
+   "source": 67,
+   "target": 38,
+   "dijkstra_nodes": 31,
+   "astar_nodes": 7,
+   "nodes_saved_pct": 77.4,
+   "dijkstra_us": 93.3,
+   "astar_us": 45.1
+  },
+  {
+   "source": 82,
+   "target": 11,
+   "dijkstra_nodes": 60,
+   "astar_nodes": 9,
+   "nodes_saved_pct": 85.0,
+   "dijkstra_us": 186.6,
+   "astar_us": 69.3
+  },
+  {
+   "source": 89,
+   "target": 33,
+   "dijkstra_nodes": 76,
+   "astar_nodes": 30,
+   "nodes_saved_pct": 60.5,
+   "dijkstra_us": 288.2,
+   "astar_us": 169.1
+  },
+  {
+   "source": 66,
+   "target": 46,
+   "dijkstra_nodes": 12,
+   "astar_nodes": 3,
+   "nodes_saved_pct": 75.0,
+   "dijkstra_us": 42.8,
+   "astar_us": 41.1
+  },
+  {
+   "source": 21,
+   "target": 45,
+   "dijkstra_nodes": 43,
+   "astar_nodes": 12,
+   "nodes_saved_pct": 72.1,
+   "dijkstra_us": 127.6,
+   "astar_us": 101.7
+  },
+  {
+   "source": 98,
+   "target": 28,
+   "dijkstra_nodes": 58,
+   "astar_nodes": 12,
+   "nodes_saved_pct": 79.3,
+   "dijkstra_us": 147.2,
+   "astar_us": 68.5
+  },
+  {
+   "source": 68,
+   "target": 69,
+   "dijkstra_nodes": 2,
+   "astar_nodes": 2,
+   "nodes_saved_pct": 0.0,
+   "dijkstra_us": 7.2,
+   "astar_us": 13.6
+  },
+  {
+   "source": 99,
+   "target": 64,
+   "dijkstra_nodes": 32,
+   "astar_nodes": 12,
+   "nodes_saved_pct": 62.5,
+   "dijkstra_us": 81.6,
+   "astar_us": 75.6
+  },
+  {
+   "source": 42,
+   "target": 81,
+   "dijkstra_nodes": 37,
+   "astar_nodes": 6,
+   "nodes_saved_pct": 83.8,
+   "dijkstra_us": 115.6,
+   "astar_us": 44.7
+  },
+  {
+   "source": 28,
+   "target": 78,
+   "dijkstra_nodes": 34,
+   "astar_nodes": 6,
+   "nodes_saved_pct": 82.4,
+   "dijkstra_us": 86.9,
+   "astar_us": 43.4
+  },
+  {
+   "source": 97,
+   "target": 24,
+   "dijkstra_nodes": 67,
+   "astar_nodes": 24,
+   "nodes_saved_pct": 64.2,
+   "dijkstra_us": 183.3,
+   "astar_us": 154.4
+  },
+  {
+   "source": 30,
+   "target": 51,
+   "dijkstra_nodes": 10,
+   "astar_nodes": 4,
+   "nodes_saved_pct": 60.0,
+   "dijkstra_us": 29.6,
+   "astar_us": 21.4
+  },
+  {
+   "source": 94,
+   "target": 29,
+   "dijkstra_nodes": 90,
+   "astar_nodes": 34,
+   "nodes_saved_pct": 62.2,
+   "dijkstra_us": 220.8,
+   "astar_us": 199.7
+  },
+  {
+   "source": 25,
+   "target": 66,
+   "dijkstra_nodes": 53,
+   "astar_nodes": 6,
+   "nodes_saved_pct": 88.7,
+   "dijkstra_us": 163.7,
+   "astar_us": 45.3
+  },
+  {
+   "source": 63,
+   "target": 45,
+   "dijkstra_nodes": 36,
+   "astar_nodes": 8,
+   "nodes_saved_pct": 77.8,
+   "dijkstra_us": 103.6,
+   "astar_us": 89.2
+  },
+  {
+   "source": 93,
+   "target": 3,
+   "dijkstra_nodes": 86,
+   "astar_nodes": 29,
+   "nodes_saved_pct": 66.3,
+   "dijkstra_us": 209.5,
+   "astar_us": 138.7
+  },
+  {
+   "source": 3,
+   "target": 35,
+   "dijkstra_nodes": 26,
+   "astar_nodes": 9,
+   "nodes_saved_pct": 65.4,
+   "dijkstra_us": 62.2,
+   "astar_us": 46.1
+  },
+  {
+   "source": 60,
+   "target": 33,
+   "dijkstra_nodes": 36,
+   "astar_nodes": 11,
+   "nodes_saved_pct": 69.4,
+   "dijkstra_us": 94.9,
+   "astar_us": 68.6
+  },
+  {
+   "source": 24,
+   "target": 88,
+   "dijkstra_nodes": 91,
+   "astar_nodes": 25,
+   "nodes_saved_pct": 72.5,
+   "dijkstra_us": 228.6,
+   "astar_us": 129.6
+  },
+  {
+   "source": 77,
+   "target": 44,
+   "dijkstra_nodes": 47,
+   "astar_nodes": 12,
+   "nodes_saved_pct": 74.5,
+   "dijkstra_us": 114.1,
+   "astar_us": 60.9
+  },
+  {
+   "source": 57,
+   "target": 92,
+   "dijkstra_nodes": 80,
+   "astar_nodes": 19,
+   "nodes_saved_pct": 76.2,
+   "dijkstra_us": 182.7,
+   "astar_us": 90.8
+  },
+  {
+   "source": 44,
+   "target": 46,
+   "dijkstra_nodes": 9,
+   "astar_nodes": 3,
+   "nodes_saved_pct": 66.7,
+   "dijkstra_us": 27.7,
+   "astar_us": 21.7
+  },
+  {
+   "source": 10,
+   "target": 28,
+   "dijkstra_nodes": 70,
+   "astar_nodes": 31,
+   "nodes_saved_pct": 55.7,
+   "dijkstra_us": 170.9,
+   "astar_us": 137.3
+  },
+  {
+   "source": 13,
+   "target": 29,
+   "dijkstra_nodes": 69,
+   "astar_nodes": 22,
+   "nodes_saved_pct": 68.1,
+   "dijkstra_us": 195.7,
+   "astar_us": 106.4
+  },
+  {
+   "source": 60,
+   "target": 25,
+   "dijkstra_nodes": 70,
+   "astar_nodes": 25,
+   "nodes_saved_pct": 64.3,
+   "dijkstra_us": 177.9,
+   "astar_us": 112.0
+  },
+  {
+   "source": 43,
+   "target": 26,
+   "dijkstra_nodes": 38,
+   "astar_nodes": 9,
+   "nodes_saved_pct": 76.3,
+   "dijkstra_us": 103.5,
+   "astar_us": 41.9
+  },
+  {
+   "source": 61,
+   "target": 79,
+   "dijkstra_nodes": 76,
+   "astar_nodes": 12,
+   "nodes_saved_pct": 84.2,
+   "dijkstra_us": 223.9,
+   "astar_us": 73.7
+  },
+  {
+   "source": 78,
+   "target": 0,
+   "dijkstra_nodes": 100,
+   "astar_nodes": 59,
+   "nodes_saved_pct": 41.0,
+   "dijkstra_us": 248.0,
+   "astar_us": 905.5
+  },
+  {
+   "source": 61,
+   "target": 83,
+   "dijkstra_nodes": 24,
+   "astar_nodes": 6,
+   "nodes_saved_pct": 75.0,
+   "dijkstra_us": 68.3,
+   "astar_us": 35.6
+  },
+  {
+   "source": 44,
+   "target": 82,
+   "dijkstra_nodes": 91,
+   "astar_nodes": 23,
+   "nodes_saved_pct": 74.7,
+   "dijkstra_us": 238.1,
+   "astar_us": 164.4
+  },
+  {
+   "source": 10,
+   "target": 84,
+   "dijkstra_nodes": 72,
+   "astar_nodes": 32,
+   "nodes_saved_pct": 55.6,
+   "dijkstra_us": 184.7,
+   "astar_us": 145.4
+  },
+  {
+   "source": 15,
+   "target": 49,
+   "dijkstra_nodes": 54,
+   "astar_nodes": 11,
+   "nodes_saved_pct": 79.6,
+   "dijkstra_us": 135.9,
+   "astar_us": 70.7
+  },
+  {
+   "source": 91,
+   "target": 96,
+   "dijkstra_nodes": 25,
+   "astar_nodes": 6,
+   "nodes_saved_pct": 76.0,
+   "dijkstra_us": 65.5,
+   "astar_us": 32.5
+  },
+  {
+   "source": 25,
+   "target": 61,
+   "dijkstra_nodes": 80,
+   "astar_nodes": 21,
+   "nodes_saved_pct": 73.8,
+   "dijkstra_us": 237.4,
+   "astar_us": 110.4
+  },
+  {
+   "source": 22,
+   "target": 55,
+   "dijkstra_nodes": 66,
+   "astar_nodes": 29,
+   "nodes_saved_pct": 56.1,
+   "dijkstra_us": 174.1,
+   "astar_us": 142.1
+  },
+  {
+   "source": 81,
+   "target": 42,
+   "dijkstra_nodes": 29,
+   "astar_nodes": 7,
+   "nodes_saved_pct": 75.9,
+   "dijkstra_us": 76.8,
+   "astar_us": 53.2
+  },
+  {
+   "source": 11,
+   "target": 92,
+   "dijkstra_nodes": 64,
+   "astar_nodes": 10,
+   "nodes_saved_pct": 84.4,
+   "dijkstra_us": 167.9,
+   "astar_us": 65.9
+  },
+  {
+   "source": 50,
+   "target": 59,
+   "dijkstra_nodes": 86,
+   "astar_nodes": 20,
+   "nodes_saved_pct": 76.7,
+   "dijkstra_us": 241.4,
+   "astar_us": 177.7
+  },
+  {
+   "source": 51,
+   "target": 95,
+   "dijkstra_nodes": 64,
+   "astar_nodes": 19,
+   "nodes_saved_pct": 70.3,
+   "dijkstra_us": 277.6,
+   "astar_us": 110.2
+  },
+  {
+   "source": 10,
+   "target": 92,
+   "dijkstra_nodes": 63,
+   "astar_nodes": 18,
+   "nodes_saved_pct": 71.4,
+   "dijkstra_us": 871.2,
+   "astar_us": 160.5
+  },
+  {
+   "source": 20,
+   "target": 21,
+   "dijkstra_nodes": 3,
+   "astar_nodes": 2,
+   "nodes_saved_pct": 33.3,
+   "dijkstra_us": 14.7,
+   "astar_us": 17.9
+  },
+  {
+   "source": 16,
+   "target": 3,
+   "dijkstra_nodes": 31,
+   "astar_nodes": 6,
+   "nodes_saved_pct": 80.6,
+   "dijkstra_us": 136.2,
+   "astar_us": 79.0
+  },
+  {
+   "source": 19,
+   "target": 75,
+   "dijkstra_nodes": 60,
+   "astar_nodes": 26,
+   "nodes_saved_pct": 56.7,
+   "dijkstra_us": 208.8,
+   "astar_us": 190.7
+  },
+  {
+   "source": 59,
+   "target": 83,
+   "dijkstra_nodes": 72,
+   "astar_nodes": 19,
+   "nodes_saved_pct": 73.6,
+   "dijkstra_us": 287.4,
+   "astar_us": 162.7
+  },
+  {
+   "source": 18,
+   "target": 78,
+   "dijkstra_nodes": 38,
+   "astar_nodes": 7,
+   "nodes_saved_pct": 81.6,
+   "dijkstra_us": 190.0,
+   "astar_us": 72.2
+  },
+  {
+   "source": 76,
+   "target": 60,
+   "dijkstra_nodes": 70,
+   "astar_nodes": 12,
+   "nodes_saved_pct": 82.9,
+   "dijkstra_us": 294.3,
+   "astar_us": 142.8
+  },
+  {
+   "source": 84,
+   "target": 44,
+   "dijkstra_nodes": 29,
+   "astar_nodes": 5,
+   "nodes_saved_pct": 82.8,
+   "dijkstra_us": 132.0,
+   "astar_us": 83.0
+  },
+  {
+   "source": 19,
+   "target": 70,
+   "dijkstra_nodes": 95,
+   "astar_nodes": 53,
+   "nodes_saved_pct": 44.2,
+   "dijkstra_us": 370.0,
+   "astar_us": 365.0
+  },
+  {
+   "source": 70,
+   "target": 16,
+   "dijkstra_nodes": 88,
+   "astar_nodes": 39,
+   "nodes_saved_pct": 55.7,
+   "dijkstra_us": 368.0,
+   "astar_us": 287.3
+  },
+  {
+   "source": 2,
+   "target": 1,
+   "dijkstra_nodes": 4,
+   "astar_nodes": 2,
+   "nodes_saved_pct": 50.0,
+   "dijkstra_us": 14.6,
+   "astar_us": 13.4
+  },
+  {
+   "source": 92,
+   "target": 83,
+   "dijkstra_nodes": 8,
+   "astar_nodes": 3,
+   "nodes_saved_pct": 62.5,
+   "dijkstra_us": 23.8,
+   "astar_us": 29.3
+  },
+  {
+   "source": 13,
+   "target": 67,
+   "dijkstra_nodes": 70,
+   "astar_nodes": 22,
+   "nodes_saved_pct": 68.6,
+   "dijkstra_us": 284.0,
+   "astar_us": 182.5
+  },
+  {
+   "source": 95,
+   "target": 17,
+   "dijkstra_nodes": 79,
+   "astar_nodes": 22,
+   "nodes_saved_pct": 72.2,
+   "dijkstra_us": 321.1,
+   "astar_us": 192.0
+  },
+  {
+   "source": 55,
+   "target": 24,
+   "dijkstra_nodes": 28,
+   "astar_nodes": 5,
+   "nodes_saved_pct": 82.1,
+   "dijkstra_us": 132.7,
+   "astar_us": 51.2
+  },
+  {
+   "source": 27,
+   "target": 3,
+   "dijkstra_nodes": 63,
+   "astar_nodes": 18,
+   "nodes_saved_pct": 71.4,
+   "dijkstra_us": 266.6,
+   "astar_us": 157.5
+  },
+  {
+   "source": 32,
+   "target": 27,
+   "dijkstra_nodes": 74,
+   "astar_nodes": 19,
+   "nodes_saved_pct": 74.3,
+   "dijkstra_us": 311.0,
+   "astar_us": 154.5
+  },
+  {
+   "source": 37,
+   "target": 64,
+   "dijkstra_nodes": 49,
+   "astar_nodes": 9,
+   "nodes_saved_pct": 81.6,
+   "dijkstra_us": 235.3,
+   "astar_us": 83.9
+  },
+  {
+   "source": 30,
+   "target": 97,
+   "dijkstra_nodes": 94,
+   "astar_nodes": 34,
+   "nodes_saved_pct": 63.8,
+   "dijkstra_us": 367.9,
+   "astar_us": 241.2
+  },
+  {
+   "source": 75,
+   "target": 41,
+   "dijkstra_nodes": 72,
+   "astar_nodes": 21,
+   "nodes_saved_pct": 70.8,
+   "dijkstra_us": 332.7,
+   "astar_us": 173.5
+  },
+  {
+   "source": 33,
+   "target": 69,
+   "dijkstra_nodes": 89,
+   "astar_nodes": 16,
+   "nodes_saved_pct": 82.0,
+   "dijkstra_us": 384.1,
+   "astar_us": 164.7
+  },
+  {
+   "source": 53,
+   "target": 16,
+   "dijkstra_nodes": 79,
+   "astar_nodes": 13,
+   "nodes_saved_pct": 83.5,
+   "dijkstra_us": 357.9,
+   "astar_us": 110.3
+  },
+  {
+   "source": 7,
+   "target": 94,
+   "dijkstra_nodes": 88,
+   "astar_nodes": 29,
+   "nodes_saved_pct": 67.0,
+   "dijkstra_us": 364.3,
+   "astar_us": 285.3
+  },
+  {
+   "source": 45,
+   "target": 58,
+   "dijkstra_nodes": 26,
+   "astar_nodes": 5,
+   "nodes_saved_pct": 80.8,
+   "dijkstra_us": 122.4,
+   "astar_us": 55.3
+  },
+  {
+   "source": 84,
+   "target": 74,
+   "dijkstra_nodes": 4,
+   "astar_nodes": 2,
+   "nodes_saved_pct": 50.0,
+   "dijkstra_us": 20.2,
+   "astar_us": 19.8
+  },
+  {
+   "source": 66,
+   "target": 53,
+   "dijkstra_nodes": 34,
+   "astar_nodes": 4,
+   "nodes_saved_pct": 88.2,
+   "dijkstra_us": 156.1,
+   "astar_us": 47.7
+  },
+  {
+   "source": 64,
+   "target": 16,
+   "dijkstra_nodes": 76,
+   "astar_nodes": 12,
+   "nodes_saved_pct": 84.2,
+   "dijkstra_us": 330.9,
+   "astar_us": 162.5
+  },
+  {
+   "source": 68,
+   "target": 19,
+   "dijkstra_nodes": 41,
+   "astar_nodes": 11,
+   "nodes_saved_pct": 73.2,
+   "dijkstra_us": 177.0,
+   "astar_us": 81.1
+  },
+  {
+   "source": 67,
+   "target": 65,
+   "dijkstra_nodes": 12,
+   "astar_nodes": 3,
+   "nodes_saved_pct": 75.0,
+   "dijkstra_us": 56.8,
+   "astar_us": 31.9
+  },
+  {
+   "source": 2,
+   "target": 56,
+   "dijkstra_nodes": 56,
+   "astar_nodes": 19,
+   "nodes_saved_pct": 66.1,
+   "dijkstra_us": 248.7,
+   "astar_us": 131.5
+  }
+ ]
+}
