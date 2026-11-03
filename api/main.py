@@ -1,7 +1,8 @@
-"""Day 10 - REST API (FastAPI).  Run from the project root:
+"""Day 10 - REST API (FastAPI) + Day 11 static frontend.  Run from the project root:
 
     uvicorn api.main:app --reload --port 8000
-Docs UI: http://127.0.0.1:8000/docs
+App:     http://127.0.0.1:8000/
+API docs: http://127.0.0.1:8000/docs
 """
 import os
 import sys
@@ -12,6 +13,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from fastapi import FastAPI, HTTPException                           # noqa: E402
 from fastapi.middleware.cors import CORSMiddleware                   # noqa: E402
+from fastapi.staticfiles import StaticFiles                          # noqa: E402
 from pydantic import BaseModel                                       # noqa: E402
 
 from routeopt import load_graph, service                             # noqa: E402
@@ -72,3 +74,8 @@ def post_congestion(req: CongestionRequest):
 def reset():
     graph.reset_dynamic_state()
     return {"status": "ok"}
+
+
+# Day 11: serve the Leaflet frontend. Mounted last so the /api routes take priority.
+FRONTEND_DIR = Path(__file__).resolve().parent.parent / "frontend"
+app.mount("/", StaticFiles(directory=str(FRONTEND_DIR), html=True), name="frontend")
