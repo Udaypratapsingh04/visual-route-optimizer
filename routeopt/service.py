@@ -10,6 +10,17 @@ from .graph import Graph
 from .metrics import run_with_metrics
 
 
+def efficiency_rating(saved_pct: float) -> str:
+    """Heuristic efficiency rating shown in the HUD (share of nodes A* avoided)."""
+    if saved_pct >= 60:
+        return "Excellent"
+    if saved_pct >= 40:
+        return "Good"
+    if saved_pct >= 20:
+        return "Fair"
+    return "Low"
+
+
 def list_nodes(graph: Graph):
     return [{"id": n.id, "name": n.name, "lat": n.lat, "lon": n.lon}
             for n in sorted(graph.nodes(), key=lambda n: n.id)]
@@ -44,6 +55,7 @@ def compute_route(graph: Graph, source: int, target: int,
         d = out["results"]["dijkstra"]["metrics"]["nodes_explored"]
         a = out["results"]["astar"]["metrics"]["nodes_explored"]
         out["nodes_saved_pct"] = round(100 * (d - a) / d, 1) if d else 0.0
+        out["efficiency_rating"] = efficiency_rating(out["nodes_saved_pct"])
     return out
 
 
