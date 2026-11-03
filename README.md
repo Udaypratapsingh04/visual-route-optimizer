@@ -1,6 +1,6 @@
 # Visual Route & Transit Optimizer
 
-Python 3.10+.  Week 1 = graph engine, Week 2 = routing algorithms + REST API.
+Python 3.10+.  Week 1 = graph engine, Week 2 = routing algorithms + REST API, Week 3 = interactive map.
 
 ## Setup
 ```
@@ -33,5 +33,13 @@ uvicorn api.main:app --reload --port 8000                  # then open http://12
 | POST | `/api/route` | `{"source":0,"target":99,"algorithm":"both","mode":"distance"}` |
 | POST | `/api/edges/congestion` | `{"source":0,"target":1,"multiplier":2.5,"closed":false}` |
 | POST | `/api/reset` | - |
+
+## Week 3 (interactive map)
+```
+uvicorn api.main:app --reload --port 8000
+```
+Open http://127.0.0.1:8000/ - click two junctions (start, end), press **Find route**, watch the search expand,
+then click any road to block it or add traffic and the route recomputes live.
+Files: `frontend/index.html`, `style.css`, `api.js`, `animation.js`, `app.js` (Leaflet is loaded from a CDN, so you need internet for the map tiles).
 
 Docs: `docs/DAY1_DESIGN.md`, `docs/DAY8_ADMISSIBILITY.md`.
