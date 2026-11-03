@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Visual Route &amp; Transit Optimizer</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <aside id="panel">
+      <h1>Route Optimizer</h1>
+      <p id="status" class="status">Loading network...</p>
+
+      <div class="row"><span class="dot start"></span><span id="startLabel">Start: not set</span></div>
+      <div class="row"><span class="dot end"></span><span id="endLabel">End: not set</span></div>
+
+      <label>Algorithm
+        <select id="algo">
+          <option value="astar">A* (Haversine heuristic)</option>
+          <option value="dijkstra">Dijkstra</option>
+        </select>
+      </label>
+      <label>Objective
+        <select id="mode">
+          <option value="distance">Shortest distance</option>
+          <option value="time">Fastest time (traffic aware)</option>
+        </select>
+      </label>
+      <label>Animation speed: <b id="speedLabel">1x</b>
+        <input id="speed" type="range" min="0" max="2" step="1" value="0">
+      </label>
+
+      <div class="buttons">
+        <button id="runBtn" class="primary" disabled>Find route</button>
+        <button id="skipBtn" disabled>Skip animation</button>
+        <button id="replayBtn" disabled>Replay</button>
+        <button id="clearBtn">Clear selection</button>
+        <button id="resetRoadsBtn">Reset all roads</button>
+      </div>
+
+      <div id="stats" class="stats" hidden></div>
+
+      <div class="legend">
+        <div><i class="sw" style="background:#2a9d8f"></i> Start / <i class="sw" style="background:#e63946"></i> End</div>
+        <div><i class="sw" style="background:#f4a100"></i> Explored node</div>
+        <div><i class="sw" style="background:#1d4ed8"></i> Final route</div>
+        <div><i class="sw" style="background:#d62828"></i> Blocked road &nbsp; <i class="sw" style="background:#e85d04"></i> Heavy traffic</div>
+        <div class="hint">Click a road to block it or add traffic. Dotted gray roads are one-way.</div>
+      </div>
+    </aside>
+    <main id="map"></main>
+  </div>
+  <div id="toasts" aria-live="polite"></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="api.js"></script>
+  <script src="animation.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
