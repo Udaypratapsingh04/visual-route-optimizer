@@ -38,3 +38,5 @@ button.primary:hover:not(:disabled) { background: #1e40af; }
   #panel { width: 100%; flex: 0 0 auto; max-height: 45vh; border-right: 0; border-top: 1px solid #e2e8f0; }
   #map { flex: 1 1 55vh; min-height: 280px; }
 }
+
+.cmp-link { display: block; margin-top: 14px; font-size: .85rem; }
